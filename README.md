@@ -2,7 +2,7 @@
 Design pattern for React
 
 
-## 1. Access method other component from Parrent component render.
+## 1. Access method other component from Parrent component render. ( :x: Pending )
 
 React provides an interface for what you are trying to do via the `ref` [attribute](https://facebook.github.io/react/docs/more-about-refs.html). Assign a component a `ref` attribute, and once it is rendered it is available on the renderer's `refs` object.
 
