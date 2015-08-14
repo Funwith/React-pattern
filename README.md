@@ -13,15 +13,11 @@ Example: I have three component: `App`, `course` and `footer`.
 
 ```javascript
 	var App = React.createClass({
-		componentDidMount: function() {
-			React.findDOMNode(this.refs.course.next_lesson());
-			React.findDOMNode(this.refs.course.prev_lesson());
-		},
 		nextLesson: function() {
-			React.findDOMNode(this.refs.course.next_lesson());
+			this.refs.course.next_lesson();
 		},
 		prevLesson: function() {
-			React.findDOMNOde(this.refs.course.prev_lesson());
+			this.refs.course.prev_lesson();
 		},
 		render: function() {
 			return (
